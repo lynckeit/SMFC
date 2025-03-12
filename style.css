@@ -125,6 +125,21 @@ tr:nth-child(even) {
   display: flex;
 }
 
+.cart{
+
+   position: fixed;
+    top: 10em;
+    right: 1em;
+  background-color: white;
+  border: 5px solid #800080; 
+  border-radius: 25px;
+  overflow:auto; 
+  height: 200px;
+  width: 180px;
+
+ 
+}
+
 .column {
   flex: 33.33%;
   padding: 5px;
