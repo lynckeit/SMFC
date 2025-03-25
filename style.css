@@ -134,8 +134,13 @@ tr:nth-child(even) {
   border: 5px solid #800080; 
   border-radius: 25px;
   overflow:auto; 
-  height: 200px;
-  width: 180px;
+   height: 23%;
+  width: 10%;
+  min-width: 150px; /* Minimum width for readability */
+  min-height: 150px; /* Minimum height for readability */
+  max-width: 300px; /* Maximum width for larger screens */
+  max-height: 400px; /* Maximum height for larger screens */
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);  /*Optional for better aesthetics */
 
  
 }
